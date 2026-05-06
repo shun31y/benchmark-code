@@ -24,7 +24,7 @@ cd /path/to/benchmark-code
 bash scripts/setup_flowmdm_env.sh
 ```
 
-3. Link HumanML3D into `FlowMDM/dataset/HumanML3D`.
+3. Link ELMA into `FlowMDM/dataset` as HumanML3D.
 
 ```bash
 ln -s /path/to/HumanML3D ./FlowMDM/dataset/HumanML3D
