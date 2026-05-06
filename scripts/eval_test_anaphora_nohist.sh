@@ -27,7 +27,7 @@ fi
 
 cd "${FLOWMDM_DIR}"
 
-CUDA_VISIBLE_DEVICES="${GPU_ID}" "${PYTHON_BIN}" -m runners.eval \
+CUDA_VISIBLE_DEVICES="${GPU_ID}" MPLBACKEND=Agg "${PYTHON_BIN}" -m runners.eval \
   --model_path ./results/humanml/ELMAv3_anap_hml3d/model000550000.pt \
   --dataset humanml \
   --eval_mode "${EVAL_MODE}" \
