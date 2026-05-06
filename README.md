@@ -1,10 +1,4 @@
 ![ELMABench](Image/ELMABench.png)
-
-# ELMABench_dev
-
-`benchmark-code` is a HumanML3D anaphora benchmark repository built around `FlowMDM`.  
-The actual generation and evaluation code lives in [`FlowMDM/`](./FlowMDM), while `benchmark-code/scripts/` provides small wrapper scripts for setup and `test_anaphora` evaluation.
-
 ## Main Files
 
 - [`FlowMDM/README.md`](./FlowMDM/README.md): detailed `FlowMDM` setup instructions
