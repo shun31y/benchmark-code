@@ -24,10 +24,10 @@ cd /path/to/benchmark-code
 bash scripts/setup_flowmdm_env.sh
 ```
 
-3. Link ELMA into `FlowMDM/dataset` as HumanML3D.
+3. Link ELMA/HML3D into `FlowMDM/dataset` as HumanML3D.
 
 ```bash
-ln -s /path/to/HumanML3D ./FlowMDM/dataset/HumanML3D
+ln -s /path/to/ELMA/HML3D ./FlowMDM/dataset/HumanML3D
 ```
 
 At minimum, the linked dataset root must contain:
