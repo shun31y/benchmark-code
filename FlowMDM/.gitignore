@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+*.pyc
+dataset/HumanML3D
+release_assets/
+flowmdm_support_files.zip
+results_humanml_pretrained_models.zip
+dataset/t2m_mean.npy
+dataset/t2m_std.npy
+dataset/HML_Mean_Gen.npy
+dataset/HML_Std_Gen.npy
+t2m/humanml/text_mot_match/model/finest.tar
+
+# Model checkpoints / optimizer states
+results/**/model*.pt
+results/**/opt*.pt
+
+# Evaluation artifacts
+results/**/evaluation/
+results/**/evaluation_precomputed/
+results/**/evaluations_summary/
+
+# Qualitative generation outputs
+qualitative/
+
+# Common local assets / downloaded dependencies
+glove/
+body_models/
