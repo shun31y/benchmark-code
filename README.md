@@ -58,7 +58,7 @@ bash runners/prepare/download_smpl_files.sh
 5. Download the remaining support files and pretrained models.
 
 ```bash
-export FLOWMDM_SUPPORT_FILES_URL="export FLOWMDM_SUPPORT_FILES_URL="https://drive.google.com/file/d/1-XqEum8HNNiMMbyiiMygIvDWylHjbpl8/view?usp=sharing""
+export FLOWMDM_SUPPORT_FILES_URL="export FLOWMDM_SUPPORT_FILES_URL="https://drive.google.com/file/d/1-XqEum8HNNiMMbyiiMygIvDWylHjbpl8/view?usp=sharing"
 export FLOWMDM_PRETRAINED_MODELS_URL="https://drive.google.com/file/d/1ZEHOOl3avMxgX_12ycagVj0_1oRz0r3q/view?usp=drive_link"
 
 cd /path/to/benchmark-code
